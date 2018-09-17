@@ -98,7 +98,7 @@ contacts.each do |person, data|
     
     if attribute == :favorite_ice_cream_flavors
       value.each do |flavor|
-        # here, each index element in an ice cream flavor string
+        # here, each index element is an ice cream flavor string
         puts "#{flavor}"
       end
     end
